@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222831;
+    min-height: 100vh;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ECE5C7;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.384);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.countdown-cont {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.countdown-cont .bigT {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-cont .element {
+    text-align: center;
+}
+
+.countdown-cont .element span {
+    font-size: 1.5rem;
+    font-family: 'Joan', serif;
+    color: whitesmoke;
+}
